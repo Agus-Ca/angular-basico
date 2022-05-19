@@ -1,0 +1,23 @@
+<h1>Dragon Ball Z</h1>
+<hr />
+
+<div class="row">
+  <div class="col">
+    <app-personajes>
+      <!-- [hijo.prop]="padre.prop" -->
+    </app-personajes>
+    <!-- <h3>Personajes:</h3>
+    <hr />
+    <ul>
+      <li *ngFor=" let personaje of personajes; ">
+          {{ personaje.nombre }} - {{ personaje.poder | number}}
+      </li>
+    </ul> -->
+  </div>
+
+  <div class="col">
+    <app-agregar 
+      [nuevo]="nuevo"> 
+    </app-agregar>
+  </div>
+</div>
